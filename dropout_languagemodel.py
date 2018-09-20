@@ -11,7 +11,7 @@ import os
 import util
 from collections import Counter
 from tensorflow.python.client import device_lib
-from dropout_lstm import DropoutLSTMCell
+from dropoutconnect_lstm import DropoutLSTMCell
 
 flags = tf.flags
 logging = tf.logging
